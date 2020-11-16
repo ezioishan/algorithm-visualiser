@@ -1,0 +1,32 @@
+.grid_body {
+  height: 100%;
+}
+.Grid {
+  background-color: rgb(241, 245, 246);
+  margin: 0;
+  padding: 10px;
+  height: 780px;
+  text-align: center;
+}
+.grid_legend {
+  display: flex;
+  align-items: center;
+}
+.grid_legend_green {
+  width: 25px;
+  height: 25px;
+  /* outline: 1px solid rgb(132, 203, 231); */
+  border-radius: 50%;
+  background-color: rgb(5, 196, 107);
+  display: inline-block;
+}
+
+.grid_legend_red {
+  width: 25px;
+  height: 25px;
+  /* outline: 1px solid rgb(132, 203, 231); */
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 2px;
+}

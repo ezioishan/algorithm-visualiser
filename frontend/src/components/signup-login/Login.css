@@ -1,0 +1,55 @@
+
+.login_container {
+	margin: 0px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	background-image: linear-gradient(rgb(179, 210, 226), rgb(2, 117, 216));
+	border: 2px solid rgb(30, 125, 214);
+
+}
+.Loginform-container{
+	background-color: #FFFFFF;
+	width: 400px;
+	height: 582px;
+	margin: 7em auto;
+	border-radius: 1.5em;
+	box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+input[type=text], input[type=password] {
+	width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(105, 92, 92, 0.04);
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin: 25px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input[type=submit] {
+	cursor: pointer;
+	border-radius: 5em;
+	color: #fff;
+	background: linear-gradient(to right, #274cb0, #40b6fb);
+	border: 0;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 13px;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.Loginform-container > form > a {
+	text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+	color: rgb(190, 48, 48);
+	text-decoration: none
+}
