@@ -1,4 +1,4 @@
-# Ecommerce Template on ReactJS
+# Algorithm-Visualiser
 
 -   Built on ReactJS, NodeJs, ExpressJs & MongoDb.
 
@@ -6,14 +6,19 @@
 ## How to run
 
 `cd algorithm-visualiser`
-Firstly, start backend:
+
+-Firstly, start backend:
 `cd backend`
+
 `npm install`
+
 `node server.js`
 
-To start frontend : 
+-To start frontend : 
 `cd frontend`
+
 `npm install`
+
 `npm start`
 
 Now visit : http://localhost:3000/
